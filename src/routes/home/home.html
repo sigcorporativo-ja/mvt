@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>${require("@/app-config.js").title}</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button id="btnAlert">
+        <ion-icon name="information-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen>
+  <!-- Elemento card que se visualiza en la pantalla principal al abrir la aplicación -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title>Card Title</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Keep close to Nature's heart... and break clear away, once in awhile,
+      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Elemento card creado en el html mapea-card que se visualiza en la pantalla principal al abrir la aplicación -->
+  <mapea-card id="mapHomeCard" mapid="home-map" center="[234518.685, 4141879.3865]" zoom="12" category="Monumento"
+    title="Plaza de toros de la Maestranza"
+    description="Reprehenderit consectetur <b>esse consectetur proident id</b> culpa mollit laborum eiusmod in magna excepteur nulla.">
+  </mapea-card>
+
+</ion-content>
