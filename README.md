@@ -1,4 +1,4 @@
-# ionic-vanillajs
+# mvt
 Make easy use Ionic with VanillaJS thanks to this template and native web components
 
 #### :warning: Under construction :warning:
